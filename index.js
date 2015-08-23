@@ -5,7 +5,7 @@ var express  = require('express'),
   http       = require('http'),
   path       = require("path"),
   fs         = require("fs"),
-  port       = (process.env.PORT || 3000);
+  port       = (process.env.PORT || 8080);
 
 app.use(express.bodyParser());
 
